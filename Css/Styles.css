@@ -1,0 +1,23 @@
+<style>
+  hr {
+    border-style: dotted none solid none;
+    background-color: none;
+    border-width: 4px;
+    border-color: #e9c46a;
+  }
+
+  td {
+    font-family: FreeMono, monospace;
+    color: #f4a261;
+  }
+  p {  color: #f4a261}
+  h4 {  color: #f4a261}
+  h3 {  color: #f4a261}
+  th {  color: #f4a261}
+  a {color:#e76f51;}
+  body{
+    background-color: #264653;"
+  }
+  address {font-family: Candara;
+  color:white;}
+</style>
