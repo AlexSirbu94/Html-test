@@ -22,6 +22,7 @@ body {
     width: 200.75px; 
     height: 32px;
     clear: both;
+    z-index: 99;
   }
   
   .button-54:active {
@@ -61,10 +62,10 @@ body {
 }
 h2 {
   padding-left:30px ;
+  text-align: center;
   margin-top: 0;
   font-family: 'Sanchez', serif;
   padding-top: 10px;
-  text-indent:0;
   text-decoration: underline;
 
 }
@@ -76,12 +77,11 @@ h2 {
 }
 .descriere {
   margin-top: 0;
-  padding-left:20px ;
-  padding-bottom: 35px;
+  padding:30px;
   font-family: 'Cabin', sans-serif;
-  text-indent: 50px;
   line-height: 1.6;
   margin-bottom: 0;
+  text-align: center;
 }
 .partea-jos {
   height: auto;
@@ -89,16 +89,6 @@ h2 {
   position: relative;
   background-image: linear-gradient(#bcb8b1, #8a817c);
 }
-
-.masina {
-  width: 250px;
-  height: 250px;
-  padding: 50px;
-  margin: 0 auto 0 auto;
-  border: 3px solid;
-  border-radius: 25px;
-  border-color: #000;
-  }
   
 .container {
 
@@ -108,16 +98,8 @@ h2 {
 
 .tables {
   display: none;
-  width: 356px;
-  height: 356px;
-  border: 3px solid;
-  border-radius: 25px;
-  border-color: #000;
   font-family: 'Cabin', sans-serif;
-  font-size:1.5rem ;
-  background-color: #8a817c;
-  font-family: 'Pacifico', cursive;
-  color: #ECE5C7;
+  font-size: 1.6rem;
  }
  
  .masinas {
@@ -125,9 +107,6 @@ h2 {
   height: 250px;
   padding: 50px;
   margin: 0 auto 0 auto;
-  border: 3px solid;
-  border-radius: 25px;
-  border-color: #000;
   }
 .masinaa:hover .masina1 {
   display: none;
@@ -135,6 +114,7 @@ h2 {
 .masinaa:hover .table1 {
   display: inline-block;
   text-align: center;
+
 }
   td {
     padding: 6px;
@@ -170,7 +150,7 @@ h2 {
     padding-bottom: 100px;
   }
   .servicii {
-    padding-top: 80px ;
+    padding-top: 80px;
   }
   .facebook:hover {
     color: #000;
@@ -179,3 +159,25 @@ h2 {
   .date {
     padding-left: 0;
   }
+  
+.masinas {
+  width: 350px;
+  height: 450px;
+  border: 3px solid;
+  border-radius: 95px;
+  border-color: #000;
+  background-color: #8a817c;
+  
+}
+.masinai {
+  width: 250px;
+  height: 250px;
+  padding-left: 50px;
+}
+.masinas:hover {
+ 
+  border-style:solid;
+  border-width:1px;
+  border-color:rgb(142,202,230);
+  box-shadow: 0px 0px 25px rgb(142,202,230);
+}
