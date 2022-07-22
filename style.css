@@ -1,0 +1,184 @@
+body {    
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.button-54 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    position: fixed;
+    top:20px;
+    right: 20px;
+    width: 200.75px; 
+    height: 32px;
+    clear: both;
+    z-index: 99;
+  }
+  
+  .button-54:active {
+    box-shadow: 0px 0px 0px 0px;
+    position: fixed;
+    top:20px;
+    right: 20px;
+    width: 200.75px; 
+    height: 32px;   
+    clear: both;
+
+  }
+
+  h1 {
+    font-family: 'Sanchez', serif;
+    font-size: 5.625rem;
+    padding-top: 75px;
+    margin-bottom: 0;
+    padding-bottom: 75px;
+    margin-top: 0;
+  }
+
+  .partea-sus {
+    height: auto;
+    background-image: linear-gradient(#F0EBE3, #E4DCCF);
+}
+.content1 {
+  margin:  0 auto 0 auto;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 0;
+}
+.calut {
+  width: 100px;
+  height: 100px;
+}
+h2 {
+  padding-left:30px ;
+  text-align: center;
+  margin-top: 0;
+  font-family: 'Sanchez', serif;
+  padding-top: 10px;
+  text-decoration: underline;
+
+}
+.partea-mijloc {
+  height:auto ;
+  background-image: linear-gradient(#E4DCCF, #7D9D9C);
+}
+.descriere {
+  margin-top: 0;
+  padding:30px;
+  font-family: 'Cabin', sans-serif;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+.partea-jos {
+  height: auto;
+  position: relative;
+  background-image: linear-gradient(#7D9D9C, #576F72);
+}
+  
+.container {
+
+ display: flex;
+ justify-content: space-around;
+ padding: 60px;}
+
+.tables {
+  display: none;
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.6rem;
+ }
+ 
+ .masinas {
+  width: 250px;
+  height: 250px;
+  padding: 50px;
+  margin: 0 auto 0 auto;
+  }
+.masinaa:hover .masina1 {
+  display: none;
+}
+.masinaa:hover .table1 {
+  display: inline-block;
+  text-align: center;
+
+}
+  td {
+    padding: 6px;
+    text-align: center;
+  }
+  .masinab:hover .masina2 {
+    display: none;
+  }
+  .masinab:hover .table2 {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .masinac:hover .masina3 {
+    display: none;
+  }
+  .masinac:hover .table3 {
+    display: inline-block;
+    text-align: center;
+  }
+ 
+  #contact {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-image: linear-gradient(#576F72, #7D9D9C);
+  }
+  .contacte {
+    font-size: 1.3rem;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  .servicii {
+    padding-top: 80px;
+  }
+  .facebook:hover {
+    color: #000;
+    text-decoration: none;
+  }
+  .date {
+    padding-left: 0;
+  }
+  
+.masinas {
+  width: 250px;
+  height: 450px;
+  border: 1px solid;
+  border-radius: 95px;
+  border-color:#647D7C;
+  box-shadow: 0px 0px 25px #647D7C;
+  background-color: #E4DCCF;
+  display: flex;
+  justify-content: center;
+}
+.masinai {
+  width: 250px;
+  height: 250px;
+}
+.masinas:hover {
+  border-color: #E4DCCF;
+  box-shadow: 0 0 25px #E4DCCF;
+  border-style:solid;
+  border-width:1px;
+  
+}
+.pagina {
+  background-image: linear-gradient(#7D9D9C,#E4DCCF);
+  height: 100px;
+  padding-top: 50px;
+text-align: center;}
